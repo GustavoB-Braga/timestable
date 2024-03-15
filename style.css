@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: url(./assets/GOLDEN\ HOUR.png) no-repeat;
+ background-size: cover;
+height: 100vh;
+font-family: 'ITC Benguiat Std', sans-serif;
+font: normal 15pt;
+font-style: normal;
+color: #D0A933;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+font-weight: normal;
+}
+header{
+color: #D0A933;
+text-align: center;
+font-family: 'ITC Benguiat Std', sans-serif;
+display:inline;
+background:#302c21aa;
+box-shadow: 5px 5px 10px rgba(0, 0, 0,0.363);
+width: 100%;  
+height: 10%;   
+}
+
+section{
+background:#302c2156;
+border-radius: 10px;
+padding: 15px;
+width: max-content;
+margin:10%;
+box-shadow: 5px 5px 10px rgba(0, 0, 0,0.363);
+margin-bottom: 40px;
+}
+
+
+footer{
+color: #D0A933;
+text-align: center;
+font-style: italic;
+height: 40px;
+position: static;
+width: 100% ;
+bottom: 0px;
+flex-shrink: 0;
+
+}
+ h1{
+font-size: 35pt;
+padding: 20px;
+ }
+
+ 
+ #number1::-webkit-inner-spin-button{
+     -webkit-appearance: none;
+     
+    }
+    #number1{
+    background:#d0a93369;
+     color:rgba(0, 0, 0, 0.442);
+     border-radius: 8px;
+     border: none;
+     text-align: left;
+     padding: 2px 3px;
+     margin-left:8px;
+        
+ }
+ #button:hover{
+    scale: 1.05;
+    color:rgba(255, 255, 255, 0.442);
+    background:#d0a93391;
+
+ }
+ #button{
+    background:#d0a93369;
+    color:rgba(0, 0, 0, 0.442);
+    border-radius: 8px;
+    padding: 2px 3px;
+    align-items: center;
+    padding: 2px 3px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left:8px;
+    font-family: 'ITC Benguiat Std', sans-serif;
+ }
+
+ #number1:focus{
+    color:rgba(255, 255, 255, 0.442);
+     scale: 1.05;
+ }
